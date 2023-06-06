@@ -21,6 +21,7 @@ function App(){
 
     return(
         <div>
+            <div>
             <Header />
             <CreateTextArea 
                 onAdd={addNote}
@@ -34,6 +35,7 @@ function App(){
                     onDelete={deleteNote}
                 />
             )}
+            </div>
             <Footer />
         </div>
     )
